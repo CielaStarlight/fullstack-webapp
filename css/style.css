@@ -953,16 +953,11 @@ hr {
     letter-spacing: .25px;
 }
 .creator-ciela {
-    /* color: #54a991; */
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 4px;
     letter-spacing: 5px;
-    padding-left: 2px;
-    /* font-size: 12px; */
-    /* font-size: 13px; */
     font-size: 10px;
-    /* font-size: 9.5px; */
     margin: .375rem 0 -.2rem;
     margin: 0 0 -.2rem;
 }
