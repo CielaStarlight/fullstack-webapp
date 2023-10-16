@@ -629,6 +629,10 @@ hr {
     border-bottom-left-radius: 12px;
     font-weight: 500;
 }
+.page-title-desc-separator {
+    opacity: .3; 
+    padding: 0 3px;
+}
 
 .hero-image {
     border: 1px solid #1e2322; 
@@ -945,6 +949,13 @@ hr {
     border-radius: 5px;
     /* border-radius: 100px; */
 }
+
+.course-content-section-title {
+    font-size: 13px;
+    letter-spacing: .225px;
+    font-weight: 500;
+}
+
 .creator {
     text-align: center;
     margin: 0;
