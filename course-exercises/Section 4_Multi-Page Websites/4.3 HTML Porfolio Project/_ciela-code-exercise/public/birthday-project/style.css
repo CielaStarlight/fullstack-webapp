@@ -10,11 +10,8 @@ body {
 }
 img {
     width: 100%;
-    border-radius: 2px;
-    max-width: 360px;
-
     border-radius: 4px;
-    max-width: 500px;
+    max-width: 400px;
     display: block;
 }
 a {
@@ -98,105 +95,39 @@ a:hover {
     font-weight: 100;
 }
 
-/* ~~~~~~~~~~ Your Code START Here ~~~~~~~~~~ */
+/* ~~~~~~~~~~ ⬇️ Your Code START Here ⬇️ ~~~~~~~~~~ */
 .body-container {
     display: flex;
     justify-content: center;
     padding: 2rem 0;
 }
 .birthday-card {
-    padding: 1.25rem;
-    border-radius: 16px;
-    background-color: white;
-    background-color: #f0efeb;
     background-color: #f4f4f4;
-    background-image: linear-gradient(0deg, #f4f4f4, #ffffff);
-    background-image: linear-gradient(0deg, #e4e4e4, #ffffff);
     background-image: linear-gradient(0deg, #bbbac2, #f4f4f4, #f9f9f9);
-    /* background-image: linear-gradient(0deg, #bbbac2, #f4f4f4); */
-    width: fit-content;
-    text-align: center;
-    box-shadow: 3px 5px 4px rgba(19, 47, 90, 0.5);
-    box-shadow: 3px 5px 4px rgba(16, 38, 71, 0.5);
-    border: 1px solid #bbbbbb;
     border: 1px solid #bbbac2;
-    margin: 1.25rem 0;
+    border-radius: 16px;
+    box-shadow: 3px 5px 4px rgba(16, 38, 71, 0.5);
     margin: 1.25rem 0 1.375rem;
     max-width: 542px;
+    padding: 1.25rem;
+    text-align: center;
+    width: fit-content;
 }
 .birthday-card-title {
-    font-size: 72px;
-    margin: -1rem 0 -.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 182px;
-    font-size: 200px;
-    color: #e14ce1;
-    color: #e461e5;
-    color: #e76fe9;
+
+    font-size: 48px;
+    margin: -0.875rem 0 0.25rem;
+    letter-spacing: 80px;
+    margin-right: -80px;
+    text-transform: uppercase;
+
     color: #e666e0;
-    /* color: #eaa2dd; */
-    /* color: #ee80c4; */
-
-    background: -webkit-linear-gradient(45deg, #e14ce1, #ffacf0);
-    background: -webkit-linear-gradient(15deg, #e461e5, #ffacdb);
-    background: -webkit-linear-gradient(10deg, #e461e5, #ffb7e0);
-
-    background: -webkit-linear-gradient(10deg, #6f6ab2, #e76fe9, #ffb7e0);
-    background: -webkit-linear-gradient(10deg, #5b4ac0, #e76fe9, #ffb7e0);
-    background: -webkit-linear-gradient(10deg, #524cb1, #e76fe9, #ffb7e0);
-    background: -webkit-linear-gradient(10deg, #4e3ba9, #eb7dec, #fdbbff, #c9b2f9, #b2a6f9);
-    background: -webkit-linear-gradient(10deg, #4e3ba9, #8e6dd3, #eb7dec, #f7abf9, #b2a6f9);
-    /* background: -webkit-linear-gradient(10deg, #4e3ba9, #6e71f0, #eb7dec, #f7abf9, #b2a6f9); */
-    background: -webkit-linear-gradient(10deg, #4e3ba9, #eb7dec, #f7abf9, #b2a6f9 , #7964d4);
-    background: -webkit-linear-gradient(10deg, #39338a, #eb7dec, #f7abf9, #b2a6f9 , #433388);
-    background: -webkit-linear-gradient(10deg, #39338a, #a47cd8, #eb7dec, #f7abf9, #b2a6f9, #634fbc);
-    background: -webkit-linear-gradient(10deg, #39338a, #7571db, #d27dec, #ec7ddf, #f7abf9, #b2a6f9 );
-    background: -webkit-linear-gradient(10deg, #163b75, #ec7ddf, #f7abf9, #c7a6f9, #b2a6f9, #5963d5);
-    background: -webkit-linear-gradient(10deg, #163b75, #ec7ddf, #f7abf9, #b2a6f9, #5963d5);
     background: -webkit-linear-gradient(10deg, #163b75, #ec7ddf, #f7abf9, #b2a6f9, #6d77df);
-    /* background: -webkit-linear-gradient(10deg, #163b75, #634fbc, #ec7ddf, #f7abf9, #c7a6f9, #5963d5); */
-
-    /* background: -webkit-linear-gradient(10deg, #4e3ba9, #eb7dec, #fdbbff, #c9b2f9, #b2a6f9); */
-    /* background: -webkit-linear-gradient(10deg, #4e3ba9, #eb7dec, #c9b2f9); */
-    
-    
-    /* background: -webkit-linear-gradient(45deg, #ffacf0, #e14ce1); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* color: #ff87e3; */
-    /* color: #ff7cd8; */
-    margin: -2.75rem 0 -1rem;
-    letter-spacing: -10px;
-
-    font-size: 60px;
-    margin: -1rem 0 0;
-    letter-spacing: 82px;
-    margin-right: -82px;
-    text-transform: uppercase;
-    letter-spacing: 74px;
-    margin-right: -74px;
-
-    font-size: 50px;
-    margin: -1rem 0 0;
-    margin: -1rem 0 0.25rem;
-    letter-spacing: 82px;
-    margin-right: -82px;
-    text-transform: uppercase;
-    letter-spacing: 80px;
-    margin-right: -80px;
-
-    font-size: 52px;
-    /* margin: -1rem 0 0.125rem; */
-
-    margin: -0.875rem 0 0.25rem;
-    font-size: 48px;
-    letter-spacing: 82px;
-    margin-right: -82px;
-    text-transform: uppercase;
-    letter-spacing: 80px;
-    margin-right: -80px;
 }
 .birthday-card-subtitle {
     color: #464894;
@@ -205,10 +136,7 @@ a:hover {
     margin-top: -0.125rem;
 }
 .birthday-card-secondary-subtitle {
-    color: #4845a7;
-    color: #132f5a;
     color: #13275a;
-    font-size: 20px;
     font-size: 19px;
 }
 .starline {
@@ -222,9 +150,10 @@ a:hover {
     margin-left: 5px;
 }
 .star {
-    color: blue;
-    color: #509ce4;
     color: #67cef3;
+}
+.birthday-card img {
+    max-width: 500px;
 }
 
 .birthday-content {
@@ -232,7 +161,6 @@ a:hover {
     width: 100%;
     display: flex;
 }
-
 .birthday-col {
     width: 50%;
     padding: .75rem;
@@ -250,7 +178,6 @@ a:hover {
     background-color: #cbcad3;
     background-image: linear-gradient(315deg, #c1bfcc, #e2e1e5);
     background-image: linear-gradient(315deg, #b2b0c0, #c1bfcc, #ecebef);
-    /* background-image: linear-gradient(315deg, #adaabb, #cbc9d7, #e9e8f1); */
     width: 20px;
     height: 20px;
     display: flex;
@@ -261,22 +188,16 @@ a:hover {
 }
 .birthday-col-icon {
     font-size: 14px;
-    color: #353b7a;
-    background: -webkit-linear-gradient(135deg, #353b7a, #6361c9, #c7a5f1);
-    background: -webkit-linear-gradient(115deg, #353b7a, #7961c9, #a574d6, #c7a5f1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #3c4390;
 }
 .birthday-col h3 {
-    margin-top: .25rem;
-    margin-top: 0;
+    color: #253c61;
+    font-size: 17px;
     margin-bottom: -.1rem;
+    margin-top: 0;
+
     display: flex;
     align-items: center;
-    font-size: 17px;
-    color: #253c61;
-    /* color: #223057; */
-    /* display: inline-block; */
 }
 .birthday-col ul {
     padding-inline-start: 18px;

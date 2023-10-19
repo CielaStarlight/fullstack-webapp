@@ -101,7 +101,22 @@ hr {
 }
 
 /* ~~~~~~~~~~ ⬇️ Your Code START Here ⬇️ ~~~~~~~~~~ */
-.project-preview-image {
-    border-radius: 14px;
-    box-shadow: 2px 4px 4px rgba(16, 38, 71, 0.3);
+h1, h2, h3 {
+    text-transform: capitalize;
+}
+
+h3 {
+    margin-top: 1.75rem;
+}
+
+/* .movie-img-wrapper {
+    background-color: #516567;
+    text-align: center;
+    border-radius: 2px;
+} */
+.movie-img-wrapper img {
+    max-width: 300px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -3px;
 }

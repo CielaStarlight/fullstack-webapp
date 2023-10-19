@@ -10,8 +10,8 @@ body {
 }
 img {
     width: 100%;
-    border-radius: 2px;
-    max-width: 360px;
+    border-radius: 4px;
+    max-width: 400px;
 }
 a {
     text-decoration: none;
@@ -21,6 +21,13 @@ a {
 a:hover {
     text-decoration: underline;
     color: #0055aa;
+}
+hr {
+    margin: 2rem 0 .9375rem;
+    border-top: 2px dotted #2a7f88;
+    border-bottom: 1px dotted #90cacc;
+    border-bottom: 1px solid rgba(144, 202, 204, 0.8);
+    background-color: transparent;
 }
 .page-title {
     font-size: 20px;
@@ -94,23 +101,57 @@ a:hover {
     font-weight: 100;
 }
 
-/* ~~~~~~~~~~ Your Code START Here ~~~~~~~~~~ */
+/* ~~~~~~~~~~ ⬇️ Your Code START Here ⬇️ ~~~~~~~~~~ */
 h1, h2, h3 {
     text-transform: capitalize;
 }
 
-h3 {
-    margin-top: 1.75rem;
+.movie-box {
+    background-color: #e5e5e5;
+    border-left: #4d81d4 5px solid;
+    border-radius: 8px 18px 18px 8px;
+    box-shadow: 3px 5px 4px rgba(16, 38, 71, 0.25);
+    margin: 2rem 0;
+    margin: 2.25rem 0;
+    max-width: 380px;
+    padding: 2rem 1.75rem 2.125rem;
 }
-
-/* .movie-img-wrapper {
-    background-color: #516567;
-    text-align: center;
-    border-radius: 2px;
-} */
+.movie-box-title {
+    color: #12489e;
+    font-size: 20px;
+    margin: 0 0 .75rem;
+}
+.rank-no {
+    background-color: rgba(0, 85, 170, 0.16);
+    border-radius: 50px;
+    font-size: 18px;
+    margin-right: 4px;
+    padding: 2px 8px 3px 8px;
+}
+.star-rating {
+    display: flex;
+    align-items: center;
+}
+.star-rating-label {
+    margin-right: 8px;
+}
+.star-rating-point {
+    margin-left: 6px;
+    font-size: 13px;
+}
+.stars {
+    color: #ff9100;
+}
+.movie-box p {
+    font-size: 13.25px;
+    line-height: 1.5;
+}
+.movie-box p:last-child {
+    margin-bottom: 0;
+}
 .movie-img-wrapper img {
-    max-width: 300px;
-    margin: 0;
+    border-radius: 4px;
+    margin: .5rem 0;
+    max-width: 500px;
     padding: 0;
-    margin-bottom: -3px;
 }

@@ -12,6 +12,7 @@ img {
     width: 100%;
     border-radius: 4px;
     max-width: 400px;
+
 }
 a {
     text-decoration: none;
@@ -78,7 +79,7 @@ hr {
     align-items: center;
 }
 .creator {
-    font-size: 11.5px;
+    font-size: 11.75px;
     letter-spacing: .375px;
     font-family: "Plus Jakarta Sans", sans-serif;
     color: #6d7884;
@@ -101,7 +102,3 @@ hr {
 }
 
 /* ~~~~~~~~~~ ⬇️ Your Code START Here ⬇️ ~~~~~~~~~~ */
-.project-preview-image {
-    border-radius: 14px;
-    box-shadow: 2px 4px 4px rgba(16, 38, 71, 0.3);
-}
