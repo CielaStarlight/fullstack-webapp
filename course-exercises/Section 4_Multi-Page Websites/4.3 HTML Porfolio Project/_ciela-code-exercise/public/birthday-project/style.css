@@ -124,47 +124,50 @@ a:hover {
     margin: 1.25rem 0 1.375rem;
     max-width: 542px;
 }
-.birthday-card-title-big {
-    font-size: 140px;
-    font-size: 100px;
+.birthday-card-title {
     font-size: 72px;
-    /* font-size: 64px; */
-    color: #464894;
-    /* color: #443ba1; */
-    color: #ed7bd6;
-    color: #ff81e6;
-    color: #ff75e3;
-    color: #ff82e6;
-    color: #ff82da;
-    color: #ff7cd8;
-    /* color: #ff7ee5; */
-    /* color: #ff75e6; */
-    margin: -1.5rem 0 -.75rem;
-    margin: -1rem 0 -.25rem;
-    margin: -1rem 0 -.5rem;
     margin: -1rem 0 -.125rem;
-    /* letter-spacing: 30px; */
-    /* font-family: 'Times New Roman', Times, serif; */
-    /* font-size: 80px; */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 182px;
     font-size: 200px;
-    color: #ff72e3;
-    color: #ff7de5;
-    color: #f071d4;
-    color: #fb71dd;
-    /* color: #ef66c1; */
-    /* color: #464894; */
-    /* color: #4649a0; */
+    color: #e14ce1;
+    color: #e461e5;
+    color: #e76fe9;
+    color: #e666e0;
+    /* color: #eaa2dd; */
+    /* color: #ee80c4; */
 
+    background: -webkit-linear-gradient(45deg, #e14ce1, #ffacf0);
+    background: -webkit-linear-gradient(15deg, #e461e5, #ffacdb);
+    background: -webkit-linear-gradient(10deg, #e461e5, #ffb7e0);
 
+    background: -webkit-linear-gradient(10deg, #6f6ab2, #e76fe9, #ffb7e0);
+    background: -webkit-linear-gradient(10deg, #5b4ac0, #e76fe9, #ffb7e0);
+    background: -webkit-linear-gradient(10deg, #524cb1, #e76fe9, #ffb7e0);
+    background: -webkit-linear-gradient(10deg, #4e3ba9, #eb7dec, #fdbbff, #c9b2f9, #b2a6f9);
+    background: -webkit-linear-gradient(10deg, #4e3ba9, #8e6dd3, #eb7dec, #f7abf9, #b2a6f9);
+    /* background: -webkit-linear-gradient(10deg, #4e3ba9, #6e71f0, #eb7dec, #f7abf9, #b2a6f9); */
+    background: -webkit-linear-gradient(10deg, #4e3ba9, #eb7dec, #f7abf9, #b2a6f9 , #7964d4);
+    background: -webkit-linear-gradient(10deg, #39338a, #eb7dec, #f7abf9, #b2a6f9 , #433388);
+    background: -webkit-linear-gradient(10deg, #39338a, #a47cd8, #eb7dec, #f7abf9, #b2a6f9, #634fbc);
+    background: -webkit-linear-gradient(10deg, #39338a, #7571db, #d27dec, #ec7ddf, #f7abf9, #b2a6f9 );
+    background: -webkit-linear-gradient(10deg, #163b75, #ec7ddf, #f7abf9, #c7a6f9, #b2a6f9, #5963d5);
+    background: -webkit-linear-gradient(10deg, #163b75, #ec7ddf, #f7abf9, #b2a6f9, #5963d5);
+    background: -webkit-linear-gradient(10deg, #163b75, #ec7ddf, #f7abf9, #b2a6f9, #6d77df);
+    /* background: -webkit-linear-gradient(10deg, #163b75, #634fbc, #ec7ddf, #f7abf9, #c7a6f9, #5963d5); */
+
+    /* background: -webkit-linear-gradient(10deg, #4e3ba9, #eb7dec, #fdbbff, #c9b2f9, #b2a6f9); */
+    /* background: -webkit-linear-gradient(10deg, #4e3ba9, #eb7dec, #c9b2f9); */
+    
+    
+    /* background: -webkit-linear-gradient(45deg, #ffacf0, #e14ce1); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     /* color: #ff87e3; */
     /* color: #ff7cd8; */
     margin: -2.75rem 0 -1rem;
-    /* margin: -2.75rem 0 -.5rem; */
-    /* margin: -3rem 0 -1rem; */
     letter-spacing: -10px;
 
     font-size: 60px;
@@ -177,6 +180,7 @@ a:hover {
 
     font-size: 50px;
     margin: -1rem 0 0;
+    margin: -1rem 0 0.25rem;
     letter-spacing: 82px;
     margin-right: -82px;
     text-transform: uppercase;
@@ -185,53 +189,44 @@ a:hover {
 
     font-size: 52px;
     /* margin: -1rem 0 0.125rem; */
+
+    margin: -0.875rem 0 0.25rem;
+    font-size: 48px;
     letter-spacing: 82px;
     margin-right: -82px;
     text-transform: uppercase;
     letter-spacing: 80px;
     margin-right: -80px;
 }
-.big-star {
-    color: #b9aff4;
-    color: #a9a6f8;
-
-    color: #9592df;
-    color: #9d9be5;
-    color: #a9a6e8;
-    /* color: #97d7ff; */
-    /* color: #cea6f8; */
-    font-size: 62px;
-}
-.small-star {
-    color: #cea6f8;
-    color: #ba9ced;
-    /* color: #b79ad6; */
-    /* color: #a9a6f8; */
-    font-size: 60px;
-    margin: 0 4px;
-    margin-bottom: -4px;
-}
-.birthday-card-title {
-    font-size: 39px;
-    /* font-size: 38px; */
-    font-size: 36px;
-    font-size: 34px;
-    font-size: 30px;
-    /* font-size: 28px; */
-
-    /* font-size: 28px; */
-    color: #4845a7;
-    color: #5045a1;
-    color: #464894;
-    /* color: #ff7de5; */
-    /* color: #ed7bd6; */
-    margin-bottom: -.5rem;
-    margin-top: 0;
-}
 .birthday-card-subtitle {
+    color: #464894;
+    font-size: 28.5px;   
+    margin-bottom: -0.75rem;
+    margin-top: -0.125rem;
+}
+.birthday-card-secondary-subtitle {
     color: #4845a7;
     color: #132f5a;
+    color: #13275a;
+    font-size: 20px;
+    font-size: 19px;
 }
+.starline {
+    color: #585d84;
+    font-size: 18px;
+}
+.starline.left {
+    margin-right: 5px;
+}
+.starline.right {
+    margin-left: 5px;
+}
+.star {
+    color: blue;
+    color: #509ce4;
+    color: #67cef3;
+}
+
 .birthday-content {
     max-width: 542px;
     width: 100%;
@@ -249,36 +244,28 @@ a:hover {
 .col-right {
     width: 32%;
 }
-.birthday-col i {
-    margin-right: 8px;
-    /* margin-right: 10px; */
+.birthday-col-icon-wrapper {
+    margin-right: 10px;
     padding: 4px;
-    background-color: #fb71dd;
-    background-color: #253c61;
-    background-color: rgba(37, 60, 97, 0.25);
-    background-color: rgba(70, 73, 148, 0.35);
-    background-color: rgb(217 217 220);
-    background-color: rgb(200 200 206);
-    background-color: rgb(180 202 236);
-    /* background-color: rgb(167, 179, 198); */
-    background-color: #d4d2dc;
-    background-color: #c1bfcc;
     background-color: #cbcad3;
-    /* background-image: linear-gradient(0deg, #c1bfcc, #e2e1e5); */
-    /* border: 1px solid #d2d3e0; */
-    color: white;
-    color: #253c61;
-    color: #464894;
+    background-image: linear-gradient(315deg, #c1bfcc, #e2e1e5);
+    background-image: linear-gradient(315deg, #b2b0c0, #c1bfcc, #ecebef);
+    /* background-image: linear-gradient(315deg, #adaabb, #cbc9d7, #e9e8f1); */
     width: 20px;
     height: 20px;
-    text-align: center;
-    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
-    font-size: 14.5px;
-    box-shadow: 3px 3px 2px rgba(16, 38, 71, 0.3);
+    box-shadow: 3px 3px 2px rgba(16, 38, 71, 0.45);
+    border-radius: 20px;
+}
+.birthday-col-icon {
+    font-size: 14px;
+    color: #353b7a;
+    background: -webkit-linear-gradient(135deg, #353b7a, #6361c9, #c7a5f1);
+    background: -webkit-linear-gradient(115deg, #353b7a, #7961c9, #a574d6, #c7a5f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .birthday-col h3 {
     margin-top: .25rem;
@@ -287,6 +274,8 @@ a:hover {
     display: flex;
     align-items: center;
     font-size: 17px;
+    color: #253c61;
+    /* color: #223057; */
     /* display: inline-block; */
 }
 .birthday-col ul {
@@ -297,4 +286,8 @@ li {
 }
 .mb-minus06 {
     margin-bottom: -.6rem;
+}
+.inline-icon {
+    font-size: 10px;
+    margin-left: 6px;
 }
