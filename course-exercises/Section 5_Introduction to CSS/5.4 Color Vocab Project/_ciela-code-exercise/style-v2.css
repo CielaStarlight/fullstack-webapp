@@ -135,7 +135,8 @@ hr {
 
 /* ~~~~~ Japanese ~~~~~~ */
 .color-group {
-    padding: 4px 12px;
+    padding: 4px;
+    margin-bottom: 16px;
 }
 
 .color-row {
@@ -155,9 +156,14 @@ hr {
     /* border-radius: 15px; */
     border: 1px solid #cbcbcb;
     padding: 8px;
+    /* padding: 7px; */
     width: fit-content;
     margin: 12px;
     margin: 13px;
+    margin: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .color-card:first-child {
     margin-left: 0;
@@ -166,22 +172,84 @@ hr {
     margin-right: 0;
 }
 
-.color-card .color-name {
-    color: #444444 !important;
-    font-size: 15px;
+.color-card-content {
+    padding: 2px;
+    padding: 4px;
+}
+
+.color-name-jp {
+    color: #444444;
+    color: #333;
+    /* color: #2e2e2e; */
+    /* margin: 0 0 2px; */
+    margin: 0;
     font-size: 14px;
-    font-size: 13.5px;
-    /* font-size: 13px; */
-    margin: 0 0 6px;
-    /* font-weight: 600; */
+    font-size: 15px;
+    font-size: 15.5px;
+    font-size: 16px;
+    /* font-size: 16.5px; */
+    /* font-size: 17px; */
+    /* font-size: 18px; */
+    /* font-size: 13.75px; */
+    /* font-weight: normal; */
+    margin-bottom: 2px;
+    /* margin-bottom: 0px; */
+    font-weight: 600;
+    word-break: break-all;
+}
+.hiragana {
     font-weight: normal;
+    font-size: 12.5px;
+    display: inline-block;
+    /* margin-bottom: 2px; */
+    /* font-size: 12px; */
+}
+.color-name-romanji {
+    font-size: 12.5px;
+    font-size: 13px;
+    color: #666666;
+    color: #555555;
+    margin: 0;
+}
+.color-name {
+    font-size: 11px;
+    color: #777777;
+    margin: 5px 0 8px;
+    padding-top: 4px;
+    margin: 6px 0 8px;
+    padding-top: 5px;
+    margin: 7px 0 8px;
+    padding-top: 6px;
+    letter-spacing: .0125px;
+    border-top: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.color-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 2px;
 }
 
 .color-box {
     width: 100px;
     height: 100px;
+    width: 116px;
+    height: 116px;
+
+    width: 120px;
+    height: 120px;
+    width: 140px;
+    height: 140px;
+    width: 132px;
+    height: 132px;
     border-radius: 8px;
 }
+
 .red { background-color: red; }
 .orange { background-color: #ff5500; }
 .yellow { background-color: #fbb947; }
@@ -193,3 +261,24 @@ hr {
 .grey { background-color: #727272; }
 .brown { background-color: #74411a; }
 .pink { background-color: #ff8c9f; }
+
+.lilac { background-color: #dfb3ff; }
+.turquoise { background-color: #46c0b4; }
+.vermillion { background-color: #e34234;}
+.sakura { background-color: #ffb7c5;}
+.viridian { background-color: #24b394; }
+.forest-green { background-color: #1a8065; }
+.wistaria { background-color: #8086ff; }
+.rose-red { background-color: #ff407d; }
+.rose { background-color: #ff335a; }
+.cherry-pink { background-color: #ff4d9f; }
+.iris-sanguinea { background-color: #ff66d9; }
+.forget-me-not { background-color: #85d0ff; }
+.blond { background-color: #edc778; }
+.rose-pink { background-color: #ff8087; background-color: #f7879a; }
+.lavender { background-color: #d3b3ff; }
+.strawberry { background-color: #ff1a55; }
+.wine-red { background-color: #ab2440; }
+.sabiasagi { background-color: #4d9996; }
+.fujinando { background-color: #5c63e6; }
+.kodaimurasaki { background-color: #9e47ad; }
