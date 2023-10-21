@@ -1,0 +1,215 @@
+/* ~~~~~~~~~~ Template Default ~~~~~~~~~~ */
+body {
+    background-color: #31aca7;
+    background-color: #7dc7c6;
+    color: #253c61;
+    color: #384875;
+    color: #384875;
+    color: #395387;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: -.5px;
+    padding: .5rem 2rem;
+}
+img {
+    width: 100%;
+    border-radius: 4px;
+    max-width: 400px;
+}
+a {
+    text-decoration: none;
+    color: #1164b7;
+    color: #395387;
+    color: #325db4;
+    color: #3f70d3;
+
+    color: #3f6bd3;
+    color: #4c74d2;
+    transition: all 0.1s ease;
+}
+a:hover {
+    text-decoration: underline;
+    color: #0055aa;
+    
+    color: #366ded;
+    color: #2f5bc2;
+    color: #3f69c9;
+}
+hr {
+    margin: 1.5rem 0 1rem;
+    border-top: 2px dotted #2a7f88;
+    border-bottom: 1px solid rgba(144, 202, 204, 0.8);
+    background-color: transparent;
+}
+.page-title {
+    font-size: 20px;
+    color: #375486;
+    /* color: #3853a4; */
+    margin-bottom: 1.125rem;
+}
+.ciela-computer {
+    width: 50px;
+    margin-right: 14px;
+    position: sticky;
+    top: 2rem;
+}
+.template-title-wrapper-container {
+    margin-top: 2.75rem;
+}
+.template-title-wrapper {
+    border-bottom: 1px dotted #44989b;
+    border-bottom: 1px dotted #4b72b2;
+    border-bottom: 1px dotted #6487bf;
+    padding-bottom: .75rem;
+    margin-bottom: 1.5rem;
+}
+.template-title {
+    color: #4067a6;
+    color: #375db5;
+    /* color: #3757b5; */
+    font-size: 28px;
+    font-size: 22px;
+    margin: 0;
+}
+.template-subject {
+    font-weight: 100;
+    color: #487fab;
+    color: #4b72b2;
+
+    border-left: 1px dotted #44989b;
+    margin-left: 16px;
+    padding-left: 16px;
+    font-size: 16px;
+    letter-spacing: .1px;
+}
+.body-container {
+    background-color: rgb(42 130 127 / 50%);
+    background-color: rgba(49, 151, 148, 0.65);
+    border: 1px solid #4f91a0;
+    border: 1px solid #a6b3ce;
+    /* border: 1px solid #929db4; */
+    box-shadow: inset 1px 2px 2px #566161;
+    border-radius: 14px;
+    padding: .75rem 2rem;
+}
+
+/* ~~~~~ Footer ~~~~~ */
+.creator-section {
+    padding: .5rem 0 0;
+    display: flex;
+    align-items: center;
+}
+.creator {
+    font-size: 11.5px;
+    letter-spacing: .375px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #6d7884;
+    color: #67717c;
+    color: #808993;
+}
+.creator-ciela {
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 11px;
+    color: #515a62;
+    color: #396487;
+    color: #395387;
+    color: rgba(57, 83, 135, 0.85);
+    /* color: #394f87; */
+    margin-right: -2px;
+}
+.creator-separator {
+    margin: 0 4px;
+    opacity: .5;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+/* ~~~~~~~~~~ ⬇️ Your Code START Here ⬇️ ~~~~~~~~~~ */
+body {
+    background-color: #C2D9FF;
+    /* background-image: linear-gradient(0deg, #afceff, #C2D9FF); */
+    background-image: linear-gradient(180deg, #8bb0ff, #a3c0ff, #C2D9FF, #C2D9FF, #C2D9FF, #C2D9FF, #C2D9FF, #C2D9FF, #C2D9FF, #C2D9FF, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #ddeaff, #ddeaff, #ddeaff, #ddeaff, #ddeaff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff);
+    background-image: linear-gradient(180deg, #8bb0ff, #aec7ff, #C2D9FF, #C2D9FF, #C2D9FF, #C2D9FF, #cbdfff, #cbdfff, #cbdfff, #cbdfff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #ddeaff, #ddeaff, #ddeaff, #ddeaff, #ddeaff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff);
+    min-height: 100vh;
+}
+
+.body-container {
+    /* background-color: #C2D9FF; */
+    /* background-color: #33BBC5; */
+    background-image: linear-gradient(90deg, #33BBC5, #C2D9FF);
+    background-image: linear-gradient(90deg, #44bdb9, #9ea1fc);
+    background-image: linear-gradient(90deg, #9ea1fc, #44bdb9);
+    /* background-image: linear-gradient(90deg, #b1b4ff, #6fccc9); */
+}
+
+.developer-profile {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+}
+
+.phantasmoth {
+    width: 100px;
+}
+
+.developer-profile-title {
+    margin: .875rem 0 0;
+    font-size: 26px;
+    /* font-size: 24px; */
+    background-color: #B6FFFA;
+    background-image: linear-gradient(90deg, #567beb, #B6FFFA);
+    background-image: linear-gradient(90deg, #5e81eb, #B6FFFA);
+    background-image: linear-gradient(90deg, #5e6feb, #6a9eff, #a1dee3);
+    background-image: linear-gradient(90deg, #6a7af3, #6a9eff, #a1dee3);
+    background-image: linear-gradient(90deg, #6a7af3, #6a9eff, #a1dee3);
+    background-image: linear-gradient(90deg, #6a7af3, #6eb1fd, #a1dee3);
+    /* background-image: linear-gradient(90deg, #5e81eb, #B6FFFA); */
+    /* background-image: linear-gradient(90deg, #8084fe, #5e81eb, #B6FFFA); */
+    /* background-image: linear-gradient(90deg, #5e81eb, #8a8eff, #B6FFFA); */
+    /* background-image: linear-gradient(90deg, #B6FFFA, #5e81eb, #8a8eff); */
+
+    color: #687EFF;
+    color: #ffffff;
+    /* color: #35A29F; */
+    display: inline-block;
+    padding: 2px 6px;
+    padding: 4px 14px 6px 14px;
+    border-radius: 2px 16px 2px 16px; 
+    border-radius: 20px 1px 20px 1px ; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    /* border-bottom: 1px solid white; */
+}
+
+.developer-profile-desc {
+    color: #6499E9;
+    background-color: #9EDDFF;
+    color: #B6FFFA;
+    color: #abffc0;
+    color: #d8e5db;
+    background-color: #6499E9;
+    background-image: linear-gradient(90deg, #6499E9, #567beb);
+    background-image: linear-gradient(90deg, #0b8b97, #7185fa);
+    background-image: linear-gradient(90deg, #1e959f, #6176ec);
+    background-image: linear-gradient(90deg, #1e959f, #4e61cd);
+    background-image: linear-gradient(90deg, #1e959f, #4253b4);
+    /* background-image: linear-gradient(90deg, #1e959f, #4253b4, #2c3772); */
+
+    /* background-image: linear-gradient(90deg, #1e959f, #5c6ed8, #3f409c, #2b3671); */
+
+
+    padding: 2px 16px 3px 16px;
+    border-radius: 1px 12px 1px 12px; 
+    border-radius: 12px 1px 12px 1px; 
+    /* border-radius: 2px; */
+    font-size: 12px;
+    /* font-size: 11.75px; */
+    letter-spacing: .1px;
+    margin: 4px 0 0;
+    margin: 0;
+    /* border-top: 1px solid rgb(201, 200, 167); */
+    /* border-top: 1px solid rgb(189, 189, 189); */
+}
