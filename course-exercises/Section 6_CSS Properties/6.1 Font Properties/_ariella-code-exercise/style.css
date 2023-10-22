@@ -1,0 +1,103 @@
+/* ~~~~~~~~~~ Template Default ~~~~~~~~~~ */
+body {
+    background-color: #C2D9FF;
+    background-image: linear-gradient(180deg, #8bb0ff, #aec7ff, #C2D9FF, #C2D9FF, #C2D9FF, #C2D9FF, #cbdfff, #cbdfff, #cbdfff, #cbdfff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #ddeaff, #ddeaff, #ddeaff, #ddeaff, #ddeaff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff);
+    color: #395387;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: -.5px;
+    min-height: 100vh;
+    padding: .5rem 2rem;
+}
+img {
+    width: 100%;
+    border-radius: 4px;
+    max-width: 400px;
+}
+a {
+    text-decoration: none;
+    color: #4c74d2;
+    transition: all 0.1s ease;
+}
+a:hover {
+    text-decoration: underline;
+    color: #3f69c9;
+}
+hr {
+    margin: 1.5rem 0 1rem;
+    border-top: 2px dotted #2a7f88;
+    border-bottom: 1px solid rgba(144, 202, 204, 0.8);
+    background-color: transparent;
+}
+.page-title {
+    font-size: 20px;
+    color: #375486;
+    margin-bottom: 1.125rem;
+}
+.ciela-computer {
+    width: 50px;
+    margin-right: 14px;
+    position: sticky;
+    top: 2rem;
+}
+.template-title-wrapper-container {
+    margin-top: 2.75rem;
+}
+.template-title-wrapper {
+    border-bottom: 1px dotted #6487bf;
+    padding-bottom: .75rem;
+    margin-bottom: 1.5rem;
+}
+.template-title {
+    color: #375db5;
+    font-size: 22px;
+    margin: 0;
+}
+.template-subject {
+    font-weight: 100;
+    color: #4b72b2;
+    border-left: 1px dotted #44989b;
+    margin-left: 16px;
+    padding-left: 16px;
+    font-size: 16px;
+    letter-spacing: .1px;
+}
+.body-container {
+    background-color: rgb(42 130 127 / 50%);
+    background-color: rgba(49, 151, 148, 0.65);
+    border: 1px solid #4f91a0;
+    border: 1px solid #a6b3ce;
+    box-shadow: inset 1px 2px 2px #566161;
+    border-radius: 14px;
+    padding: .75rem 2rem;
+}
+
+/* ~~~~~ Footer ~~~~~ */
+.creator-section {
+    padding: .5rem 0 0;
+    display: flex;
+    align-items: center;
+}
+.creator {
+    color: #808993;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 11.5px;
+    letter-spacing: .375px;
+}
+.creator-ciela {
+    color: rgba(57, 83, 135, 0.85);
+    font-size: 11px;
+    font-weight: 800;
+    margin-right: -2px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.creator-separator {
+    margin: 0 4px;
+    opacity: .5;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+/* ~~~~~~~~~~ ⬇️ Your Code START Here ⬇️ ~~~~~~~~~~ */
+
